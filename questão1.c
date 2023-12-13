@@ -23,7 +23,7 @@ struct Contato {
 };
 
 
-char* numeroTelefone(struct Contato contatos[], int tamanho, const char* nome) {
+char* numeroTelefone(struct Contato contatos[], int tamanho, char* nome) {
     for (int i = 0; i < tamanho; i++) {
       
         if (strcmp(contatos[i].nome, nome) == 0) {
